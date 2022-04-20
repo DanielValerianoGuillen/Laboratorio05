@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio03.LabelDemo">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="This is underlined text." TextDecorations="Underline"
+                   FontSize="Large"/>
+            <Label Text="This  is text with strikethrough." TextDecorations="Strikethrough" />
+
+            <Label Text="This is underlined  text with strikethrough . " 
+                   TextDecorations="Underline,Strikethrough" />
+
+            <Label Text="Esto es una prueba " BackgroundColor="Red" ></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

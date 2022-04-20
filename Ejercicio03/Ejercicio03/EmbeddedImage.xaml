@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local2 ="clr-namespace:Ejercicio03"
+             x:Class="Ejercicio03.EmbeddedImage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout x:Name="stack">
+                <Label Text="Embedded Images!"
+                       VerticalOptions="CenterAndExpand"
+                       HorizontalOptions="CenterAndExpand" />
+                <Image Source="{local2:ImageResource 
+                    Ejercicio03.rotacion.png}" />
+                
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
